@@ -1,0 +1,75 @@
+/* Styles généraux du formulaire */
+#apply-form {
+    max-width: 500px;
+    margin: 50px auto; /* Centrer le formulaire */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style des labels */
+  #apply-form label {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  /* Style des inputs et textarea */
+  #apply-form input[type="text"],
+  #apply-form input[type="email"],
+  #apply-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box; 
+  }
+  
+  #apply-form textarea {
+    resize: vertical; 
+    min-height: 100px; 
+  }
+  
+  /* Effet lors du focus sur les champs */
+  #apply-form input[type="text"]:focus,
+  #apply-form input[type="email"]:focus,
+  #apply-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Ombre bleue */
+  }
+  
+  /* Style du bouton */
+  #apply-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #apply-form button:hover {
+    background-color: #218838; /* Couleur légèrement plus foncée au survol */
+  }
+  
+  #apply-form button:active {
+    background-color: #1e7e34; /* Couleur encore plus foncée lors du clic */
+  }
+  
+  /* Styles supplémentaires pour l'apparence générale */
+  #apply-form input[type="text"]::placeholder,
+  #apply-form input[type="email"]::placeholder,
+  #apply-form textarea::placeholder {
+    color: #999; /* Couleur du texte des placeholders */
+  }
+  
+  

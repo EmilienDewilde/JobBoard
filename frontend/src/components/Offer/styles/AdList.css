@@ -1,0 +1,58 @@
+/* AdList.css */
+.ad-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 30%;
+  }
+  
+  .ad-card {
+    background-color: #BFDBFE;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .ad-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .ad-details {
+    padding: 15px;
+  }
+  
+  .ad-details h3 {
+    color: #6B7280;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .ad-details p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .ad-list {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .ad-list {
+      grid-template-columns: 1fr;
+    }
+  
+    .ad-card {
+      flex-direction: column;
+    }
+  
+    .ad-image {
+      height: 150px;
+    }
+  }
+  

@@ -1,0 +1,92 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container Styles */
+  .container_register {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styles */
+  .title_register {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Form Label Styles */
+  .label_register {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  /* Input Field Styles */
+  .input_register {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .input_register:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button Styles */
+  .btn_submit {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn_submit:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error Message Styles */
+  .error-message {
+    color: red;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .container_register {
+      padding: 15px;
+    }
+  
+    .input_register {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    .btn_submit {
+      padding: 8px;
+      font-size: 0.9rem;
+    }
+  }
+  

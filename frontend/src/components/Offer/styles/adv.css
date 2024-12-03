@@ -1,0 +1,64 @@
+.adv-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    font-family: Arial, sans-serif;
+  }
+  .adv-card h3 {
+    font-size: 1.8em;
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .adv-card .company {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .adv-card .description {
+    margin-top: 15px;
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5em;
+  }
+  
+  .adv-card .salary {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #28a745; /* Vert pour représenter un bon salaire */
+    font-weight: bold;
+  }
+  
+  .adv-card .salary::before {
+    content: "Salaire : $";
+  }
+  
+  .adv-card .button-container {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .adv-card button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+
+  .adv-card button:hover {
+    background-color: #0056b3;
+  }

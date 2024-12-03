@@ -1,0 +1,21 @@
+.header-bar {
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color:#3B82F6;
+    color: #1F2937;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .header-content{
+    display: flex;
+    align-items: center;
+  }
+  .title{
+    margin-left: 10px;
+  }
+
+  
